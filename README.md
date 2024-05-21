@@ -1,16 +1,11 @@
 # fake_temp
 
-A new Flutter project.
+新型コロナウィルス流行時、体育の授業では毎朝検温して記録した用紙の提出が義務付けられていました。
+毎朝測るのは忘れる、しかしその場で適当に考えるのは面倒くさいし不自然になる。
 
-## Getting Started
+ということで体温を捏造してくれるアプリを作りました。
 
-This project is a starting point for a Flutter application.
+## 使い方
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+上の欄に平熱の10倍を整数値で入力します。
+「体温は？」のボタンを押すと入力した平熱+-0.2度の数値をランダムに表示してくれます。それだけです。
